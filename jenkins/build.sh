@@ -2,4 +2,4 @@
 
 git clean -xfd
 env
-mvn -DskipTests clean package
+mvn -B -DskipTests clean package
