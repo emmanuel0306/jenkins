@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'hola'
+        echo 'construccion'
+        echo 'prueba'
+        sh './jenkins/build.sh'
       }
     }
 
